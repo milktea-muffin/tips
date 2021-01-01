@@ -89,4 +89,9 @@ $ acc new [contestID]
 
 # テストケースの実行
 $ oj t -c "python3 ./a.py" -d ./tests/
+
+# コードの提出(カレントディレクトリから問題を自動判定)
+# pythonの場合はファイルの先頭に以下を記載しバージョンを明示する
+#!/usr/bin/env python3
+$ acc submit [ファイル名]
 ```
